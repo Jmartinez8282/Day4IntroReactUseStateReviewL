@@ -39,9 +39,9 @@ const Content = () => {
     setIncrease((prevIn) => prevIn + 1);
 
     //will get bugs
-    setIncrease(increase + 1);
+    // setIncrease(increase + 1);
     
-    console.log("from our increase");
+  
   }
   const handleClick2 = () => {
     console.log(increase);
